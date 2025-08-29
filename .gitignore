@@ -39,3 +39,45 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files (Windows)
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Supabase local development
+.supabase/
+
+# Stream.io keys and tokens (if any)
+stream-*.key
+stream-*.token
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional eslint cache
+.eslintcache
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
